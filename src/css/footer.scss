@@ -1,0 +1,154 @@
+/* footer.scss */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #001241;
+  height: 279px;
+  width: 97.8vw;
+  padding: 20px;
+  color: white;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-section-logo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  left: 813px;
+  bottom: 20px;
+  .logo-and-name {
+    display: flex;
+    align-items: center;
+    .logo {
+      max-width: 50px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section-suggestions {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 72px;
+  right: 1010px;
+  h4 {
+    margin: 0;
+    margin-bottom: 18px;
+    font-family: 'Manrope', sans-serif;
+    margin-left: 16px;
+    font-size: 18px;
+  }
+  .input-container {
+    display: flex;
+    align-items: center;
+    input {
+      width: 263px;
+      height: 35px;
+      border: 1px solid #ccc;
+      border-radius: 60px;
+      padding: 5px 10px;
+      margin-right: 10px;
+    }
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      img {
+        width: 24px;
+        height: 25px;
+      }
+    }
+  }
+}
+
+.footer-link {
+  font-family: 'Manrope', sans-serif;
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer-section-company {
+  margin-top: 55px;
+  margin-top: auto;
+  position: absolute;
+  bottom: 140px;
+  right: 849px;
+  h4 {
+    font-family: 'Manrope', sans-serif;
+    margin-left: 0px;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
+
+.footer-section-contact {
+  margin-top: 55px;
+  margin-top: auto;
+  position: absolute;
+  bottom: 130px;
+  right: 500px;
+  h4 {
+    margin: 0;
+    margin-bottom: 18px;
+    font-family: 'Manrope', sans-serif;
+    margin-left: 0px;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+      img {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.footer-section-social {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  padding-bottom: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 740px;
+  a {
+    margin-right: 30px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  img {
+    width: 39px;
+    height: 39px;
+  }
+}
